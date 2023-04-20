@@ -34,32 +34,32 @@ div {
 
 @font-face {
   font-family: "Font 1";
-  src: url(/Discord/fonts/font1.woff2);
+  src: url(./fonts/font1.woff2);
 }
 
 @font-face {
   font-family: "Font 2";
-  src: url(/Discord/fonts/font2.woff2);
+  src: url(./fonts/font2.woff2);
 }
 
 @font-face {
   font-family: "Font 3";
-  src: url(/Discord/fonts/font3.woff2);
+  src: url(./fonts/font3.woff2);
 }
 
 @font-face {
   font-family: "Font 4";
-  src: url(/Discord/fonts/font4.woff2);
+  src: url(./fonts/font4.woff2);
 }
 
 @font-face {
   font-family: "Font 5";
-  src: url(/Discord/fonts/font5.woff2);
+  src: url(./fonts/font5.woff2);
 }
 
 @font-face {
   font-family: "Font 6";
-  src: url(/Discord/fonts/font6.woff2);
+  src: url(./fonts/font6.woff2);
 }
 
 /* @media screen and (min-width: 400px) and (max-width: 767px) {
