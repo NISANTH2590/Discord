@@ -794,6 +794,16 @@ body {
   /* padding: 0 var(--page-gutter); */
 }
 
+.intersection-observer {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: transform 400ms, opacity 1s;
+}
+.intersection-observer.show {
+  transform: translateY(0);
+  opacity: 1;
+}
+
 .body-content-1-grid-image {
   max-width: 678px;
   max-height: 440px;

@@ -5,6 +5,7 @@
     <!-- <script defer src="intersection-observer.js"></script> -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
@@ -74,8 +75,8 @@
           </div>
 
         <div class="body-content-1" >
-          <div class="body-content-1-grid" data-aos="fade-up" data-aos-delay="200" data-aos-offset="100" data-aos-easing="ease-in-out" data-aos-once="true">
-              <img src="./svg's/content-1.svg" class="body-content-1-grid-image"/>
+          <div class="body-content-1-grid intersection-observer">
+              <img src="./svg's/content-1.svg" class="body-content-1-grid-image intersection-observer"/>
             <div class="body-content-1-description">
               <h2 class="body-content-1-title">
                 Create an invite-only place where you belong
@@ -90,7 +91,7 @@
         </div>
 
         <div class="body-content-2">
-          <div class="body-content-2-grid" data-aos="fade-up" data-aos-delay="200" data-aos-offset="100" data-aos-easing="ease-in-out" data-aos-once="true">
+          <div class="body-content-2-grid intersection-observer">
             <div class="body-content-2-description">
               <h2 class="body-content-2-title">Where hanging out is easy</h2>
               <div class="body-content-2-subtitle">
@@ -105,7 +106,7 @@
         </div>
 
         <div class="body-content-1" >
-          <div class="body-content-1-grid" data-aos="fade-up" data-aos-delay="200" data-aos-offset="100" data-aos-easing="ease-in-out" data-aos-once="true">
+          <div class="body-content-1-grid intersection-observer">
               <img class="body-content-1-grid-image" src="./svg's/content-3.svg"/>
               <div class="body-content-1-description">
               <h2 class="body-content-1-title">
@@ -119,7 +120,7 @@
         </div>
 
         <div class="body-content-4">
-          <div class="body-content-4-grid" data-aos="fade-up" data-aos-delay="200" data-aos-offset="100" data-aos-easing="ease-in-out" data-aos-once="true">
+          <div class="body-content-4-grid intersection-observer">
             <div class="body-content-4-description">
               <h2 class="body-content-4-title">
                 Reliable tech for staying close
@@ -393,6 +394,7 @@
       AOS.init();
     </script>
     <script src="./device_finder.js"></script>
+    <script src="./intersection-observer.js"></script>
     <script>let a=getMobileOperatingSystem();
     console.log(a);</script>
   </body>
